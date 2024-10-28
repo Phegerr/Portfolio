@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <title> Rémi Branjonneau | Etudiant en informatique</title>
+    <meta name="keywords" content="Rémi Branjonneau, ingénieur informatique, développement jeux vidéo, AR, VR, JavaScript, Python, Git, GitHub, portfolio, stage, césure" />
+    <meta name="description" content="Étudiant en ingénierie informatique, interessé par le développement. Actuellement en recherche de stage de césure pour approfondir mes compétences en développement web." />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    
+  </head>
+
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+  <section id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title load-hidden">
+        Je suis <span class="text-color-main">Rémi Branjonneau</span>
+        <br />
+        Étudiant en ingénierie informatique.
+      </h1>
+      <p class="hero-cta load-hidden">
+        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">
+          En savoir plus
+        </a>
+      </p>
+    </div>
+  </section>
+  <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">Mon profil</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.png"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <div class="about-wrapper__info-text">
+                <p>Actuellement étudiant en école d'ingénieur à IMT Atlantique, je me suis spécialisé en informatique avec des intérets variés dans le domaine. Je possède un profil polyvalent dont les compétences incluent le développement de logiciels, le développement web, ainsi que des projets en XR (réalité étendue) et des projets vidéoludiques.</p>
+                <p>En dehors de mes études, je suis passionné par le sport, notamment le judo, ainsi que par les voyages et la découverte de nouvelles cultures. Cette curiosité alimente mon envie de créer des solutions qui allient technologie et créativité.</p>
+
+            </div>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  Voir mon CV
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projets</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Escape game en réalité augmenté</h3>
+                <div>
+                  <p>
+                    Dans le cadre d'un projet master de 4 mois, j'ai collaboré avec une équipe de 4 personnes pour concevoir et développer deux escape games en réalité augmentée. <br>
+                    J'ai contribué au design global tout en prenant en charge l'ensemble des aspects techniques en utilisant 
+                    <b>8th Wall</b>, la plateforme de développement XR de Niantic, basée sur les languages
+                    <b>JavaScript</b>, <b>HTML</b>, et <b>CSS</b>. En plus d'utiliser des modèles 3D gratuits récupérés sur Sketchfab, j'ai également créé quelques assets 3D personnalisés en utilisant <b>Blender</b> pour répondre aux besoins spécifiques des projets.</p>
+                  
+                  <p><b>Compétences utilisées</b> : Software Design, Software Developpement, Travail d'équipe, 3D Modelling.</p>
+                  
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://www.8thwall.com/hadziq/exgame/project"
+                >
+                  Code Source 1
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://www.8thwall.com/hadziq/halloween-escape-game/project"
+                >
+                  Code Source 2
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                  <video
+                    id="projectVideo"
+                    class="img-fluid"
+                    width="35%"
+<<<<<<< HEAD
+                    poster="assets/escapeGameAR - Cover.jpg"
+=======
+>>>>>>> 0e1b864 (Modification pour ajouter mes données personnelles)
+                    controls
+                    <source src="assets/escapeGameAR.mp4" type="video/mp4" />
+                    Balise vidéo non supportée
+                  >
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Éditeur de scénario pour l'association Terre Virtuelle</h3>
+                <div>
+                  <p class="mb-4">
+                    Dans une équipe de 6 étudiants, création d'une application web permettant d'éditer des scénarios pour NaviSU 4D, une application de visualisation de données sur un globe, développée par l'association bretonne Terre Virtuelle. <br>
+                    J'ai pris en charge le backend de l'application avec <b>Node.js</b>, en mettant en place les fonctionnalités de sauvegarde, chargement et suppression de scénarios via un serveur interne de l''association. J'étais également responsable de la communication avec le client et d'accompagner mes coéquipiers dans l'utilisation de <b>GitHub</b> pour optimiser notre collaboration.
+                  </p>
+
+                  <p><b>Compétences utilisées</b> : Gestion de projet, Travail en équipe, Communication Client, Développement Back-end.</p>                  
+
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Ucals-dev/Editeur-Navisu4D"
+                >
+                  Code Source
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/naviSu4D.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Éditeur de scénario pour l'association Terre Virtuelle</h3>
+                <div>
+                  <p class="mb-4">
+                    Création d'un script en <b>Python</b> avec deux camarades pour une bibliothèque communale, permettant de générer automatiquement des fiches bibliographiques. <br>
+                    Mon rôle a été de développer le module de web scraping pour extraire les informations depuis l'un des sites marchands ciblés.
+                  </p>
+                  
+                  <p><b>Compétences utilisées</b> : Travail en équipe, Adaptation, Développement collaboratif, Développement Python</p>    
+                </div>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                class="cta-btn cta-btn--hero"
+                href="assets/generateurFicheBiblio.py"
+                download="generateurFicheBiblio.py"
+              >
+                Télécharger le script
+              </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Arzhig/books"
+                >
+                  Code Source
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/webScrapping.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text-start">Contactez moi</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:remi.branjonneau@imt-atlantique.net"
+            > 
+            <i class="fa fa-envelope fa-inverse"></i> 
+            remi.branjonneau@imt-atlantique.net</a
+          >
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="tel:+33664686263"
+            > 
+            <i class="fa fa-phone fa-inverse"> </i>
+            +33 6 64 68 62 63</a
+          >
+          <p class="contact-wrapper__text-end">Ou sur mes réseaux sociaux ...</p>
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/remi-branjonneau-4196071b0/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/Phegerr" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <p class="footer__text">
+          © 2021 - Template developed by
+          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
+            >Jacobo Martínez</a
+          >
+        </p>
+
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
