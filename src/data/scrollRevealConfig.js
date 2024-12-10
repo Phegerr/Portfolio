@@ -16,6 +16,13 @@ export const targetElements = [
     },
   },
   {
+    element: ".hero-language",
+    animation: {
+      delay: 300,
+      origin: window.innerWidth > 768 ? "right" : "top",
+    },
+  },
+  {
     element: ".hero-title",
     animation: {
       delay: 500,
